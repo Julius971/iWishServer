@@ -10,6 +10,7 @@
 		B6D66C6E1E9FCBF20075FB00 /* WishListStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C6D1E9FCBF20075FB00 /* WishListStoryBoard.storyboard */; };
 		B6D66C701E9FCC360075FB00 /* SettingsStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C6F1E9FCC360075FB00 /* SettingsStoryBoard.storyboard */; };
 		B6D66C721E9FD3310075FB00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C711E9FD3310075FB00 /* Main.storyboard */; };
+		B6D66C741EA008060075FB00 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C731EA008060075FB00 /* Podfile */; };
 		C6040E511E9FC3CC0070100D /* SongListStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6040E501E9FC3CC0070100D /* SongListStoryBoard.storyboard */; };
 		C642E9131E9F9D700097E355 /* SongManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C642E9121E9F9D700097E355 /* SongManager.swift */; };
 		C677A3461E9E843F002B550C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677A3451E9E843F002B550C /* AppDelegate.swift */; };
@@ -25,6 +26,7 @@
 		B6D66C6D1E9FCBF20075FB00 /* WishListStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WishListStoryBoard.storyboard; sourceTree = "<group>"; };
 		B6D66C6F1E9FCC360075FB00 /* SettingsStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SettingsStoryBoard.storyboard; sourceTree = "<group>"; };
 		B6D66C711E9FD3310075FB00 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B6D66C731EA008060075FB00 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		C6040E501E9FC3CC0070100D /* SongListStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SongListStoryBoard.storyboard; sourceTree = "<group>"; };
 		C642E9121E9F9D700097E355 /* SongManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongManager.swift; sourceTree = "<group>"; };
 		C677A3421E9E843F002B550C /* iWishServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWishServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +106,7 @@
 		C677A3441E9E843F002B550C /* iWishServer */ = {
 			isa = PBXGroup;
 			children = (
+				B6D66C731EA008060075FB00 /* Podfile */,
 				C6040E521E9FC4880070100D /* Utility */,
 				C6040E4F1E9FC3A50070100D /* Settings */,
 				C6040E4E1E9FC39A0070100D /* WishList */,
@@ -182,6 +185,7 @@
 				B6D66C6E1E9FCBF20075FB00 /* WishListStoryBoard.storyboard in Resources */,
 				B6D66C721E9FD3310075FB00 /* Main.storyboard in Resources */,
 				C677A3501E9E843F002B550C /* LaunchScreen.storyboard in Resources */,
+				B6D66C741EA008060075FB00 /* Podfile in Resources */,
 				C677A34D1E9E843F002B550C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
