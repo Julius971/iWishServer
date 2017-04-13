@@ -20,8 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let settingsview: UIViewController = UIStoryboard(name: "SettingsStoryBoard", bundle: Bundle.main).instantiateInitialViewController()!
         
         let songtabitem: UITabBarItem = UITabBarItem(title: "Songlist", image: UIImage(named: "Songlist"), selectedImage: UIImage(named: "Songlist"))
-        let wishtabitem: UITabBarItem = UITabBarItem(title: "Songs", image: UIImage(named: "Songlist"), selectedImage: UIImage(named: "Songlist"))
-        let settingstabitem: UITabBarItem = UITabBarItem(title: "Songs", image: UIImage(named: "Songlist"), selectedImage: UIImage(named: "Songlist"))
+        let wishtabitem: UITabBarItem = UITabBarItem(title: "Wishlist", image: UIImage(named: "Wishlist"), selectedImage: UIImage(named: "Wishlist"))
+        let settingstabitem: UITabBarItem = UITabBarItem(title: "Settings", image: UIImage(named: "Settings"), selectedImage: UIImage(named: "Settings"))
         
         songlistview.tabBarItem = songtabitem
         wishlistview.tabBarItem = wishtabitem
