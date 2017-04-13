@@ -106,15 +106,15 @@
 		C677A3441E9E843F002B550C /* iWishServer */ = {
 			isa = PBXGroup;
 			children = (
-				B6D66C731EA008060075FB00 /* Podfile */,
+				C677A34C1E9E843F002B550C /* Assets.xcassets */,
 				C6040E521E9FC4880070100D /* Utility */,
 				C6040E4F1E9FC3A50070100D /* Settings */,
 				C6040E4E1E9FC39A0070100D /* WishList */,
 				C6040E4D1E9FC3770070100D /* SongList */,
-				C677A3451E9E843F002B550C /* AppDelegate.swift */,
-				C677A34C1E9E843F002B550C /* Assets.xcassets */,
 				C677A34E1E9E843F002B550C /* LaunchScreen.storyboard */,
 				B6D66C711E9FD3310075FB00 /* Main.storyboard */,
+				C677A3451E9E843F002B550C /* AppDelegate.swift */,
+				B6D66C731EA008060075FB00 /* Podfile */,
 				C677A3511E9E843F002B550C /* Info.plist */,
 			);
 			path = iWishServer;
@@ -152,7 +152,7 @@
 				TargetAttributes = {
 					C677A3411E9E843F002B550C = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = ZB7A87ZZKW;
+						DevelopmentTeam = AXLC3PQNC8;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -317,7 +317,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZB7A87ZZKW;
+				DEVELOPMENT_TEAM = AXLC3PQNC8;
 				INFOPLIST_FILE = iWishServer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.Totalegal.iWishServer;
@@ -331,7 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZB7A87ZZKW;
+				DEVELOPMENT_TEAM = AXLC3PQNC8;
 				INFOPLIST_FILE = iWishServer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.Totalegal.iWishServer;
