@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mKy-pD-bDF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Y1A-p4-GHA">
     <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--WishList-->
+        <!--Gewünschte Songs-->
         <scene sceneID="QJx-NX-Kfx">
             <objects>
                 <viewController id="mKy-pD-bDF" customClass="WishListViewController" customModule="iWishServer" customModuleProvider="target" sceneMemberID="viewController">
@@ -23,14 +23,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="161" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="AWS-VT-weZ">
-                                <rect key="frame" x="20" y="20" width="728" height="984"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="WishListCell" rowHeight="161" id="bbh-sR-aMO" userLabel="WishListCell" customClass="WishListTableViewCell" customModule="iWishServer" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="728" height="161"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="WishListCell" rowHeight="161" id="bbh-sR-aMO" userLabel="WishListCell" customClass="WishListTableViewCell" customModule="iWishServer" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="768" height="161"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bbh-sR-aMO" id="yAQ-nU-T6q">
-                                            <rect key="frame" x="0.0" y="0.0" width="728" height="161"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="702" height="161"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aQ4-i0-BRw">
@@ -97,23 +97,36 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="AWS-VT-weZ" firstAttribute="top" secondItem="eYi-gx-FuV" secondAttribute="bottom" id="Rlo-ei-Sbo"/>
-                            <constraint firstItem="AWS-VT-weZ" firstAttribute="trailing" secondItem="gjY-7E-kJ3" secondAttribute="trailingMargin" id="SjC-ff-jiO"/>
-                            <constraint firstAttribute="bottom" secondItem="AWS-VT-weZ" secondAttribute="bottom" constant="20" symbolic="YES" id="TEN-Cf-sp2"/>
-                            <constraint firstItem="AWS-VT-weZ" firstAttribute="leading" secondItem="gjY-7E-kJ3" secondAttribute="leadingMargin" id="xKp-Al-o5X"/>
+                            <constraint firstAttribute="trailing" secondItem="AWS-VT-weZ" secondAttribute="trailing" id="8P5-Kt-nH4"/>
+                            <constraint firstItem="AWS-VT-weZ" firstAttribute="bottom" secondItem="lCH-oU-gt7" secondAttribute="top" id="Kfb-Kj-1rk"/>
+                            <constraint firstItem="AWS-VT-weZ" firstAttribute="top" secondItem="gjY-7E-kJ3" secondAttribute="top" id="SJU-yY-40r"/>
+                            <constraint firstItem="AWS-VT-weZ" firstAttribute="leading" secondItem="gjY-7E-kJ3" secondAttribute="leading" id="SuL-cq-mHh"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="WishList" image="WishList" selectedImage="WishList" id="aRn-QN-7XI"/>
+                    <navigationItem key="navigationItem" title="Gewünschte Songs" id="fUL-He-lpM"/>
                     <connections>
                         <outlet property="WishListTable" destination="AWS-VT-weZ" id="nKb-Yr-6m2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A3H-gk-EXo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-56.249999999999993" y="-568.37481698389456"/>
+            <point key="canvasLocation" x="232.8125" y="-357.421875"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fPD-AZ-lJP">
+            <objects>
+                <navigationController id="Y1A-p4-GHA" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tkn-sh-SoP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="mKy-pD-bDF" kind="relationship" relationship="rootViewController" id="Z51-nA-1MW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xnl-OC-wfR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-488" y="-357"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="WishList" width="16" height="16"/>
-    </resources>
 </document>

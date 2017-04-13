@@ -17,14 +17,13 @@ class WishListViewController: UIViewController, UITableViewDelegate, UITableView
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        load()
         
-        // Do any additional setup after loading the view.
+        WishListTable.tableFooterView = UIView()
+        load()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func load() {
@@ -44,8 +43,23 @@ class WishListViewController: UIViewController, UITableViewDelegate, UITableView
         return titleList.count
     }
     
+    func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
+        let more = UITableViewRowAction(style: .normal, title: "Infos") { action, index in
+            print("more button tapped")
+        }
+        more.backgroundColor = .blue
+        
+        let remove = UITableViewRowAction(style: .normal, title: "Löschen") { action, index in
+            print("remove button tapped")
+        }
+        remove.backgroundColor = .red
+        
+        return [remove, more]
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "SampleWishListCell") as! WishListTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "WishListCell") as! WishListTableViewCell
+        cell.AlbumArt.image = UIImage(named: "Songlist")
         cell.AlbumTitle.text = titleList[indexPath.row].album
         cell.ArtistName.text = titleList[indexPath.row].artist
         cell.SongTitle.text = titleList[indexPath.row].titel

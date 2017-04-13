@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wyI-gj-uaL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="uxA-Zl-eKV">
     <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,9 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--SongList-->
+        <!--Musik Bibliothek-->
         <scene sceneID="pcq-Sw-ojg">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rje-bD-T8n" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="wyI-gj-uaL" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ecB-s3-qgU"/>
@@ -22,15 +23,26 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="SongList" image="Songlist" selectedImage="Songlist Filled" id="b05-GF-7H1"/>
+                    <navigationItem key="navigationItem" title="Musik Bibliothek" id="gvm-WR-ekg"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Rje-bD-T8n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-56" y="56"/>
+            <point key="canvasLocation" x="267" y="500"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Jzl-ad-sN8">
+            <objects>
+                <navigationController id="uxA-Zl-eKV" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gMy-Ke-yg9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="wyI-gj-uaL" kind="relationship" relationship="rootViewController" id="C7g-bS-pRZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s9t-4y-gdF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-488" y="500"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Songlist" width="33" height="33"/>
-        <image name="Songlist Filled" width="16" height="16"/>
-    </resources>
 </document>

@@ -19,4 +19,5 @@ class Titel {
         self.time = Date()
         
     }
+    
 }
