@@ -9,14 +9,8 @@
 import Foundation
 
 class SongManager {
-    let file = "songs.iWf"
-    var JSONSonglist
     
     init(){
-        
-    }
-    
-    func loadSongsToRam(){
         
     }
 }

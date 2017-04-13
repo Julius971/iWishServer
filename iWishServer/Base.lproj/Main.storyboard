@@ -9,25 +9,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--SongList-->
-        <scene sceneID="OnY-DM-hvh">
-            <objects>
-                <viewController id="Doo-mw-4Mw" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="fCX-30-hJD"/>
-                        <viewControllerLayoutGuide type="bottom" id="2ZO-q7-UPm"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="PvN-Gk-07W">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="SongList" image="Songlist" selectedImage="Songlist Filled" id="tum-tp-nXa"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Uao-TX-tRC" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-56" y="56"/>
-        </scene>
         <!--Settings-->
         <scene sceneID="18h-am-EQN">
             <objects>
@@ -176,7 +157,6 @@
                     </tabBar>
                     <connections>
                         <segue destination="qTm-Ws-8To" kind="relationship" relationship="viewControllers" id="zl6-Yi-hSF"/>
-                        <segue destination="Doo-mw-4Mw" kind="relationship" relationship="viewControllers" id="88Y-a7-PK1"/>
                         <segue destination="lzh-ua-JPI" kind="relationship" relationship="viewControllers" id="3ha-59-Frm"/>
                     </connections>
                 </tabBarController>
@@ -188,8 +168,6 @@
     <resources>
         <image name="Settings" width="33" height="33"/>
         <image name="Settings Filled" width="33" height="33"/>
-        <image name="Songlist" width="33" height="33"/>
-        <image name="Songlist Filled" width="33" height="33"/>
         <image name="WishList" width="33" height="33"/>
     </resources>
 </document>

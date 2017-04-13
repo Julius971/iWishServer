@@ -15,7 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let songlistsb = UIStoryboard(name: "SongListStoryBoard", bundle: nil).instantiateInitialViewController()
+        let tabBarSongListItem = UITabBarItem(title: "SongList",image: #imageLiteral(resourceName: "Songlist"), selectedImage: #imageLiteral(resourceName: "Songlist Filled"))
+        songlistsb?.tabBarItem = tabBarSongListItem
+        self.window?.rootViewController?.tabBarController?.viewControllers?.append(songlistsb!)
+        
         return true
     }
 

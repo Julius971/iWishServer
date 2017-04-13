@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6040E511E9FC3CC0070100D /* SongListStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6040E501E9FC3CC0070100D /* SongListStoryBoard.storyboard */; };
 		C642E9131E9F9D700097E355 /* SongManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C642E9121E9F9D700097E355 /* SongManager.swift */; };
 		C677A3461E9E843F002B550C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677A3451E9E843F002B550C /* AppDelegate.swift */; };
-		C677A3481E9E843F002B550C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677A3471E9E843F002B550C /* ViewController.swift */; };
 		C677A34B1E9E843F002B550C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C677A3491E9E843F002B550C /* Main.storyboard */; };
 		C677A34D1E9E843F002B550C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C677A34C1E9E843F002B550C /* Assets.xcassets */; };
 		C677A3501E9E843F002B550C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C677A34E1E9E843F002B550C /* LaunchScreen.storyboard */; };
@@ -20,10 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C6040E501E9FC3CC0070100D /* SongListStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SongListStoryBoard.storyboard; sourceTree = "<group>"; };
 		C642E9121E9F9D700097E355 /* SongManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongManager.swift; sourceTree = "<group>"; };
 		C677A3421E9E843F002B550C /* iWishServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWishServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C677A3451E9E843F002B550C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C677A3471E9E843F002B550C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C677A34A1E9E843F002B550C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C677A34C1E9E843F002B550C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C677A34F1E9E843F002B550C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -45,6 +45,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C6040E4D1E9FC3770070100D /* SongList */ = {
+			isa = PBXGroup;
+			children = (
+				C6040E501E9FC3CC0070100D /* SongListStoryBoard.storyboard */,
+			);
+			name = SongList;
+			sourceTree = "<group>";
+		};
+		C6040E4E1E9FC39A0070100D /* WishList */ = {
+			isa = PBXGroup;
+			children = (
+				C677A3571E9E98BD002B550C /* WishListViewController.swift */,
+				C677A3591E9E98EE002B550C /* WishListTableViewCell.swift */,
+			);
+			name = WishList;
+			sourceTree = "<group>";
+		};
+		C6040E4F1E9FC3A50070100D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		C6040E521E9FC4880070100D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C677A35B1E9E9C0E002B550C /* Titel.swift */,
+				C677A35D1E9EA34B002B550C /* ConectionHandler.swift */,
+				C642E9121E9F9D700097E355 /* SongManager.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
 		C677A3391E9E843F002B550C = {
 			isa = PBXGroup;
 			children = (
@@ -64,17 +98,15 @@
 		C677A3441E9E843F002B550C /* iWishServer */ = {
 			isa = PBXGroup;
 			children = (
+				C6040E521E9FC4880070100D /* Utility */,
+				C6040E4F1E9FC3A50070100D /* Settings */,
+				C6040E4E1E9FC39A0070100D /* WishList */,
+				C6040E4D1E9FC3770070100D /* SongList */,
 				C677A3451E9E843F002B550C /* AppDelegate.swift */,
-				C677A3471E9E843F002B550C /* ViewController.swift */,
 				C677A3491E9E843F002B550C /* Main.storyboard */,
 				C677A34C1E9E843F002B550C /* Assets.xcassets */,
 				C677A34E1E9E843F002B550C /* LaunchScreen.storyboard */,
 				C677A3511E9E843F002B550C /* Info.plist */,
-				C677A3571E9E98BD002B550C /* WishListViewController.swift */,
-				C677A35B1E9E9C0E002B550C /* Titel.swift */,
-				C677A3591E9E98EE002B550C /* WishListTableViewCell.swift */,
-				C677A35D1E9EA34B002B550C /* ConectionHandler.swift */,
-				C642E9121E9F9D700097E355 /* SongManager.swift */,
 			);
 			path = iWishServer;
 			sourceTree = "<group>";
@@ -139,6 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6040E511E9FC3CC0070100D /* SongListStoryBoard.storyboard in Resources */,
 				C677A3501E9E843F002B550C /* LaunchScreen.storyboard in Resources */,
 				C677A34D1E9E843F002B550C /* Assets.xcassets in Resources */,
 				C677A34B1E9E843F002B550C /* Main.storyboard in Resources */,
@@ -154,7 +187,6 @@
 			files = (
 				C677A35A1E9E98EE002B550C /* WishListTableViewCell.swift in Sources */,
 				C642E9131E9F9D700097E355 /* SongManager.swift in Sources */,
-				C677A3481E9E843F002B550C /* ViewController.swift in Sources */,
 				C677A3581E9E98BD002B550C /* WishListViewController.swift in Sources */,
 				C677A35C1E9E9C0E002B550C /* Titel.swift in Sources */,
 				C677A3461E9E843F002B550C /* AppDelegate.swift in Sources */,
