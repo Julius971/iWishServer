@@ -51,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B6C7149E1EA11BA4003DA734 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B6D66C711E9FD3310075FB00 /* Main.storyboard */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
 		C6040E4D1E9FC3770070100D /* SongList */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,7 +121,7 @@
 				C6040E4E1E9FC39A0070100D /* WishList */,
 				C6040E4D1E9FC3770070100D /* SongList */,
 				C677A34E1E9E843F002B550C /* LaunchScreen.storyboard */,
-				B6D66C711E9FD3310075FB00 /* Main.storyboard */,
+				B6C7149E1EA11BA4003DA734 /* Main */,
 				C677A3451E9E843F002B550C /* AppDelegate.swift */,
 				C677A3511E9E843F002B550C /* Info.plist */,
 			);
