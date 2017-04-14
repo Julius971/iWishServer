@@ -23,10 +23,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3rh-cY-yrp">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="975"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="D9v-PG-Gb2">
-                                        <rect key="frame" x="0.0" y="0.0" width="313" height="1024"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="313" height="975"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="313" id="cP0-ed-uXl"/>
@@ -36,7 +36,7 @@
                                                 <rect key="frame" x="0.0" y="28" width="313" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iAs-YG-Cbl" id="Sbo-ds-xQ7">
-                                                    <rect key="frame" x="0.0" y="0.0" width="313" height="44"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="313" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DASNENVERBUNDENESPAD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xo3-UA-PfF">
@@ -58,7 +58,7 @@
                                         <sections/>
                                     </tableView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mhr-Kr-2eF">
-                                        <rect key="frame" x="321" y="0.0" width="447" height="1024"/>
+                                        <rect key="frame" x="321" y="0.0" width="447" height="975"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
                                 </subviews>
@@ -88,10 +88,12 @@
             </objects>
             <point key="canvasLocation" x="201" y="1373"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Item-->
         <scene sceneID="dN4-Af-cpN">
             <objects>
                 <navigationController id="9BG-9f-8fn" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="PXN-f9-QOW"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="CcQ-7A-5Uy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

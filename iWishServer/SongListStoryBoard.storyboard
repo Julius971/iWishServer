@@ -12,7 +12,6 @@
         <!--Musik Bibliothek-->
         <scene sceneID="pcq-Sw-ojg">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Rje-bD-T8n" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="wyI-gj-uaL" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ecB-s3-qgU"/>
@@ -25,13 +24,16 @@
                     </view>
                     <navigationItem key="navigationItem" title="Musik Bibliothek" id="gvm-WR-ekg"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rje-bD-T8n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="267" y="500"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Item-->
         <scene sceneID="Jzl-ad-sN8">
             <objects>
                 <navigationController id="uxA-Zl-eKV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="NyQ-3O-1jr"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="gMy-Ke-yg9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

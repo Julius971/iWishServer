@@ -17,7 +17,6 @@ class Titel {
         self.album = album
         self.count = count
         self.time = Date()
-        
     }
     
 }
