@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B6C714871EA0EC93003DA734 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B6C714861EA0EC93003DA734 /* Podfile */; };
+		B6C714A01EA13434003DA734 /* MainChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C7149F1EA13434003DA734 /* MainChooseViewController.swift */; };
 		B6D66C6E1E9FCBF20075FB00 /* WishListStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C6D1E9FCBF20075FB00 /* WishListStoryBoard.storyboard */; };
 		B6D66C701E9FCC360075FB00 /* SettingsStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C6F1E9FCC360075FB00 /* SettingsStoryBoard.storyboard */; };
 		B6D66C721E9FD3310075FB00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C711E9FD3310075FB00 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		B6C714861EA0EC93003DA734 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		B6C7149F1EA13434003DA734 /* MainChooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainChooseViewController.swift; path = ../MainChooseViewController.swift; sourceTree = "<group>"; };
 		B6D66C6D1E9FCBF20075FB00 /* WishListStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WishListStoryBoard.storyboard; sourceTree = "<group>"; };
 		B6D66C6F1E9FCC360075FB00 /* SettingsStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SettingsStoryBoard.storyboard; sourceTree = "<group>"; };
 		B6D66C711E9FD3310075FB00 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		B6C7149E1EA11BA4003DA734 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				B6C7149F1EA13434003DA734 /* MainChooseViewController.swift */,
 				B6D66C711E9FD3310075FB00 /* Main.storyboard */,
 			);
 			name = Main;
@@ -210,6 +213,7 @@
 				C677A3581E9E98BD002B550C /* WishListViewController.swift in Sources */,
 				C677A35C1E9E9C0E002B550C /* Titel.swift in Sources */,
 				C677A3461E9E843F002B550C /* AppDelegate.swift in Sources */,
+				B6C714A01EA13434003DA734 /* MainChooseViewController.swift in Sources */,
 				C677A35E1E9EA34B002B550C /* ConectionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
