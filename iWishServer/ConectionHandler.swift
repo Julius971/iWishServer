@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ConectionHandler{
+class ConectionHandler: NSObject {
     
     let port:Int
     
