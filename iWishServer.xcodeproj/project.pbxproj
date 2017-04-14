@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B6C714871EA0EC93003DA734 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B6C714861EA0EC93003DA734 /* Podfile */; };
-		B6C7148F1EA0FFD2003DA734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C7148E1EA0FFD2003DA734 /* AppDelegate.swift */; };
-		B6C714941EA0FFD2003DA734 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C714921EA0FFD2003DA734 /* Main.storyboard */; };
-		B6C714961EA0FFD2003DA734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C714951EA0FFD2003DA734 /* Assets.xcassets */; };
-		B6C714991EA0FFD2003DA734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C714971EA0FFD2003DA734 /* LaunchScreen.storyboard */; };
 		B6D66C6E1E9FCBF20075FB00 /* WishListStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C6D1E9FCBF20075FB00 /* WishListStoryBoard.storyboard */; };
 		B6D66C701E9FCC360075FB00 /* SettingsStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C6F1E9FCC360075FB00 /* SettingsStoryBoard.storyboard */; };
 		B6D66C721E9FD3310075FB00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C711E9FD3310075FB00 /* Main.storyboard */; };
@@ -28,12 +24,6 @@
 
 /* Begin PBXFileReference section */
 		B6C714861EA0EC93003DA734 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		B6C7148C1EA0FFD2003DA734 /* iWishClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWishClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6C7148E1EA0FFD2003DA734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B6C714931EA0FFD2003DA734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B6C714951EA0FFD2003DA734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B6C714981EA0FFD2003DA734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B6C7149A1EA0FFD2003DA734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6D66C6D1E9FCBF20075FB00 /* WishListStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WishListStoryBoard.storyboard; sourceTree = "<group>"; };
 		B6D66C6F1E9FCC360075FB00 /* SettingsStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SettingsStoryBoard.storyboard; sourceTree = "<group>"; };
 		B6D66C711E9FD3310075FB00 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -51,13 +41,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B6C714891EA0FFD2003DA734 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C677A33F1E9E843F002B550C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -68,18 +51,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B6C7148D1EA0FFD2003DA734 /* iWishClient */ = {
-			isa = PBXGroup;
-			children = (
-				B6C7148E1EA0FFD2003DA734 /* AppDelegate.swift */,
-				B6C714921EA0FFD2003DA734 /* Main.storyboard */,
-				B6C714951EA0FFD2003DA734 /* Assets.xcassets */,
-				B6C714971EA0FFD2003DA734 /* LaunchScreen.storyboard */,
-				B6C7149A1EA0FFD2003DA734 /* Info.plist */,
-			);
-			path = iWishClient;
-			sourceTree = "<group>";
-		};
 		C6040E4D1E9FC3770070100D /* SongList */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,7 +92,6 @@
 			children = (
 				B6C714861EA0EC93003DA734 /* Podfile */,
 				C677A3441E9E843F002B550C /* iWishServer */,
-				B6C7148D1EA0FFD2003DA734 /* iWishClient */,
 				C677A3431E9E843F002B550C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				C677A3421E9E843F002B550C /* iWishServer.app */,
-				B6C7148C1EA0FFD2003DA734 /* iWishClient.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,23 +123,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B6C7148B1EA0FFD2003DA734 /* iWishClient */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B6C7149B1EA0FFD2003DA734 /* Build configuration list for PBXNativeTarget "iWishClient" */;
-			buildPhases = (
-				B6C714881EA0FFD2003DA734 /* Sources */,
-				B6C714891EA0FFD2003DA734 /* Frameworks */,
-				B6C7148A1EA0FFD2003DA734 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = iWishClient;
-			productName = iWishClient;
-			productReference = B6C7148C1EA0FFD2003DA734 /* iWishClient.app */;
-			productType = "com.apple.product-type.application";
-		};
 		C677A3411E9E843F002B550C /* iWishServer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C677A3541E9E843F002B550C /* Build configuration list for PBXNativeTarget "iWishServer" */;
@@ -198,11 +150,6 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Julius;
 				TargetAttributes = {
-					B6C7148B1EA0FFD2003DA734 = {
-						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = AXLC3PQNC8;
-						ProvisioningStyle = Automatic;
-					};
 					C677A3411E9E843F002B550C = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = AXLC3PQNC8;
@@ -224,22 +171,11 @@
 			projectRoot = "";
 			targets = (
 				C677A3411E9E843F002B550C /* iWishServer */,
-				B6C7148B1EA0FFD2003DA734 /* iWishClient */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B6C7148A1EA0FFD2003DA734 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6C714991EA0FFD2003DA734 /* LaunchScreen.storyboard in Resources */,
-				B6C714961EA0FFD2003DA734 /* Assets.xcassets in Resources */,
-				B6C714941EA0FFD2003DA734 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C677A3401E9E843F002B550C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,14 +193,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B6C714881EA0FFD2003DA734 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6C7148F1EA0FFD2003DA734 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C677A33E1E9E843F002B550C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -281,22 +209,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B6C714921EA0FFD2003DA734 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B6C714931EA0FFD2003DA734 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B6C714971EA0FFD2003DA734 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B6C714981EA0FFD2003DA734 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		C677A34E1E9E843F002B550C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -308,36 +220,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B6C7149C1EA0FFD2003DA734 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				DEVELOPMENT_TEAM = AXLC3PQNC8;
-				INFOPLIST_FILE = iWishClient/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.totalegal.iWishClient;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		B6C7149D1EA0FFD2003DA734 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				DEVELOPMENT_TEAM = AXLC3PQNC8;
-				INFOPLIST_FILE = iWishClient/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.totalegal.iWishClient;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 		C677A3521E9E843F002B550C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -462,14 +344,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B6C7149B1EA0FFD2003DA734 /* Build configuration list for PBXNativeTarget "iWishClient" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B6C7149C1EA0FFD2003DA734 /* Debug */,
-				B6C7149D1EA0FFD2003DA734 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		C677A33D1E9E843F002B550C /* Build configuration list for PBXProject "iWishServer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
