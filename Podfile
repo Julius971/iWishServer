@@ -2,9 +2,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 platform :ios, ‘8.0’
 
-abstract_target ‘iWishServer’ do
-    #pod "VISPER", "~> 0.3.8"
-end
+#pod "VISPER", "~> 0.3.8"
 
 post_install do |installer|
     installer.pods_project.targets.each do |target|
