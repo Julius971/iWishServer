@@ -17,7 +17,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6uS-Gi-OUk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2867" y="695"/>
+            <point key="canvasLocation" x="-2600" y="985"/>
         </scene>
         <!--SongList-->
         <scene sceneID="KjR-EI-RrR">
@@ -27,7 +27,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="63z-0J-cqj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3208" y="695"/>
+            <point key="canvasLocation" x="-3133" y="985"/>
         </scene>
         <!--WishList-->
         <scene sceneID="dXE-bl-6Bx">
@@ -37,7 +37,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lVl-vx-rYV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2526" y="695"/>
+            <point key="canvasLocation" x="-2867" y="985"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="daI-XA-ObA">
@@ -71,12 +71,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wls-7f-iLq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3790" y="2657"/>
+            <point key="canvasLocation" x="-3791" y="2119"/>
         </scene>
         <!--Impressum-->
         <scene sceneID="O7f-uu-qVr">
             <objects>
-                <viewController id="cPX-NK-R1s" customClass="WebViewViewController" customModule="iWishServer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cPX-NK-R1s" customClass="ImpressumViewController" customModule="iWishServer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2EI-61-7VH"/>
                         <viewControllerLayoutGuide type="bottom" id="tl2-gW-1Rz"/>
@@ -106,12 +106,12 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="webview" destination="5jb-hS-a9L" id="pdN-NC-RTA"/>
+                        <outlet property="webview" destination="5jb-hS-a9L" id="gev-Yw-hTw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AZ9-eN-Ybg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2867" y="2657"/>
+            <point key="canvasLocation" x="-2867" y="2119"/>
         </scene>
         <!--Main Choose View Controller-->
         <scene sceneID="FAG-uv-RRG">
@@ -187,9 +187,9 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <connections>
-                                            <outlet property="ImageIcon" destination="g6R-QV-dav" id="XH9-dP-Mcc"/>
-                                            <outlet property="cell_description" destination="Nez-Ez-SdR" id="Slo-ci-SFU"/>
-                                            <outlet property="cell_headline" destination="gas-GC-w4N" id="h0x-f4-7ct"/>
+                                            <outlet property="cell_description" destination="Nez-Ez-SdR" id="rNP-sn-dgi"/>
+                                            <outlet property="cell_headline" destination="gas-GC-w4N" id="STo-Om-T8O"/>
+                                            <outlet property="imageIcon" destination="g6R-QV-dav" id="1QR-bN-eaM"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -206,7 +206,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="tableview" destination="vce-m6-HdS" id="wP4-IU-vpN"/>
+                        <outlet property="mode_tableview" destination="vce-m6-HdS" id="w4h-7V-YWi"/>
                         <segue destination="WUm-ei-af8" kind="show" identifier="showClient" id="Bbl-jy-Ha4"/>
                         <segue destination="511-nf-CX9" kind="show" identifier="showServer" id="Oa3-mH-4dR"/>
                         <segue destination="UTf-KH-w49" kind="showDetail" identifier="showImpressum" id="yoO-GW-uHj"/>
@@ -234,7 +234,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K1E-zg-SgF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3790" y="197"/>
+            <point key="canvasLocation" x="-3791" y="694"/>
         </scene>
     </scenes>
     <resources>

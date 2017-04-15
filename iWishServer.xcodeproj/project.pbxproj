@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		573F93351EA23D080022D0E9 /* SongListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F93341EA23D080022D0E9 /* SongListCollectionViewCell.swift */; };
 		B6C714871EA0EC93003DA734 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B6C714861EA0EC93003DA734 /* Podfile */; };
+		B6C714A81EA242A8003DA734 /* MainChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C714A71EA242A8003DA734 /* MainChooseViewController.swift */; };
+		B6C714AA1EA24396003DA734 /* MainTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C714A91EA24396003DA734 /* MainTableCell.swift */; };
+		B6C714AC1EA244C4003DA734 /* ImpressumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C714AB1EA244C4003DA734 /* ImpressumViewController.swift */; };
 		B6D66C6E1E9FCBF20075FB00 /* WishList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C6D1E9FCBF20075FB00 /* WishList.storyboard */; };
 		B6D66C701E9FCC360075FB00 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C6F1E9FCC360075FB00 /* Settings.storyboard */; };
 		B6D66C721E9FD3310075FB00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C711E9FD3310075FB00 /* Main.storyboard */; };
@@ -27,9 +30,9 @@
 /* Begin PBXFileReference section */
 		573F93341EA23D080022D0E9 /* SongListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongListCollectionViewCell.swift; sourceTree = "<group>"; };
 		B6C714861EA0EC93003DA734 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		B6C7149F1EA13434003DA734 /* MainChooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainChooseViewController.swift; path = ../MainChooseViewController.swift; sourceTree = "<group>"; };
-		B6C714A11EA22416003DA734 /* MainTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableCell.swift; sourceTree = "<group>"; };
-		B6C714A31EA238BA003DA734 /* WebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		B6C714A71EA242A8003DA734 /* MainChooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainChooseViewController.swift; sourceTree = "<group>"; };
+		B6C714A91EA24396003DA734 /* MainTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableCell.swift; sourceTree = "<group>"; };
+		B6C714AB1EA244C4003DA734 /* ImpressumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpressumViewController.swift; sourceTree = "<group>"; };
 		B6D66C6D1E9FCBF20075FB00 /* WishList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WishList.storyboard; sourceTree = "<group>"; };
 		B6D66C6F1E9FCC360075FB00 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		B6D66C711E9FD3310075FB00 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -61,9 +64,9 @@
 		B6C7149E1EA11BA4003DA734 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				B6C7149F1EA13434003DA734 /* MainChooseViewController.swift */,
-				B6C714A11EA22416003DA734 /* MainTableCell.swift */,
-				B6C714A31EA238BA003DA734 /* WebViewViewController.swift */,
+				B6C714A71EA242A8003DA734 /* MainChooseViewController.swift */,
+				B6C714AB1EA244C4003DA734 /* ImpressumViewController.swift */,
+				B6C714A91EA24396003DA734 /* MainTableCell.swift */,
 				B6D66C711E9FD3310075FB00 /* Main.storyboard */,
 			);
 			name = Main;
@@ -217,10 +220,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C714A81EA242A8003DA734 /* MainChooseViewController.swift in Sources */,
 				C677A35A1E9E98EE002B550C /* WishListTableViewCell.swift in Sources */,
 				C64A94E71EA232B50087FFE2 /* SongListViewController.swift in Sources */,
+				B6C714AC1EA244C4003DA734 /* ImpressumViewController.swift in Sources */,
 				573F93351EA23D080022D0E9 /* SongListCollectionViewCell.swift in Sources */,
 				C642E9131E9F9D700097E355 /* SongManager.swift in Sources */,
+				B6C714AA1EA24396003DA734 /* MainTableCell.swift in Sources */,
 				C677A3581E9E98BD002B550C /* WishListViewController.swift in Sources */,
 				C677A35C1E9E9C0E002B550C /* Titel.swift in Sources */,
 				C677A3461E9E843F002B550C /* AppDelegate.swift in Sources */,
