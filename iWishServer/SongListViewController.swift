@@ -10,7 +10,7 @@ import UIKit
 
 class SongListViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
-    @IBOutlet weak var collectionView: SongListCollectionView!
+    
     var titles:Array<Titel> = []
     
     override func viewDidLoad() {
@@ -43,7 +43,7 @@ class SongListViewController: UIViewController, UICollectionViewDelegate, UIColl
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SampleSongListCell", for: indexPath) as! SongListCollectionViewCell
-        cell.Title.text = titles[indexPath.row].titel
+        cell.title.text = titles[indexPath.row].titel
         
         return cell
     }
