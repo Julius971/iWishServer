@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>iWishClient.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 		<key>iWishServer.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -17,11 +12,6 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>B6C7148B1EA0FFD2003DA734</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>C677A3411E9E843F002B550C</key>
 		<dict>
 			<key>primary</key>

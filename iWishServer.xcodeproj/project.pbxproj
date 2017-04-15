@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6C714871EA0EC93003DA734 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B6C714861EA0EC93003DA734 /* Podfile */; };
+		B6C714A01EA13434003DA734 /* MainChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C7149F1EA13434003DA734 /* MainChooseViewController.swift */; };
 		B6D66C6E1E9FCBF20075FB00 /* WishListStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C6D1E9FCBF20075FB00 /* WishListStoryBoard.storyboard */; };
 		B6D66C701E9FCC360075FB00 /* SettingsStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C6F1E9FCC360075FB00 /* SettingsStoryBoard.storyboard */; };
 		B6D66C721E9FD3310075FB00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C711E9FD3310075FB00 /* Main.storyboard */; };
-		B6D66C741EA008060075FB00 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C731EA008060075FB00 /* Podfile */; };
 		C6040E511E9FC3CC0070100D /* SongListStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6040E501E9FC3CC0070100D /* SongListStoryBoard.storyboard */; };
 		C642E9131E9F9D700097E355 /* SongManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C642E9121E9F9D700097E355 /* SongManager.swift */; };
 		C677A3461E9E843F002B550C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677A3451E9E843F002B550C /* AppDelegate.swift */; };
@@ -23,10 +24,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6C714861EA0EC93003DA734 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		B6C7149F1EA13434003DA734 /* MainChooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainChooseViewController.swift; path = ../MainChooseViewController.swift; sourceTree = "<group>"; };
 		B6D66C6D1E9FCBF20075FB00 /* WishListStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WishListStoryBoard.storyboard; sourceTree = "<group>"; };
 		B6D66C6F1E9FCC360075FB00 /* SettingsStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SettingsStoryBoard.storyboard; sourceTree = "<group>"; };
 		B6D66C711E9FD3310075FB00 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		B6D66C731EA008060075FB00 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		C6040E501E9FC3CC0070100D /* SongListStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SongListStoryBoard.storyboard; sourceTree = "<group>"; };
 		C642E9121E9F9D700097E355 /* SongManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongManager.swift; sourceTree = "<group>"; };
 		C677A3421E9E843F002B550C /* iWishServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWishServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +53,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B6C7149E1EA11BA4003DA734 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B6C7149F1EA13434003DA734 /* MainChooseViewController.swift */,
+				B6D66C711E9FD3310075FB00 /* Main.storyboard */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
 		C6040E4D1E9FC3770070100D /* SongList */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +101,7 @@
 		C677A3391E9E843F002B550C = {
 			isa = PBXGroup;
 			children = (
+				B6C714861EA0EC93003DA734 /* Podfile */,
 				C677A3441E9E843F002B550C /* iWishServer */,
 				C677A3431E9E843F002B550C /* Products */,
 			);
@@ -112,9 +124,8 @@
 				C6040E4E1E9FC39A0070100D /* WishList */,
 				C6040E4D1E9FC3770070100D /* SongList */,
 				C677A34E1E9E843F002B550C /* LaunchScreen.storyboard */,
-				B6D66C711E9FD3310075FB00 /* Main.storyboard */,
+				B6C7149E1EA11BA4003DA734 /* Main */,
 				C677A3451E9E843F002B550C /* AppDelegate.swift */,
-				B6D66C731EA008060075FB00 /* Podfile */,
 				C677A3511E9E843F002B550C /* Info.plist */,
 			);
 			path = iWishServer;
@@ -146,7 +157,7 @@
 		C677A33A1E9E843F002B550C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Julius;
 				TargetAttributes = {
@@ -185,7 +196,7 @@
 				B6D66C6E1E9FCBF20075FB00 /* WishListStoryBoard.storyboard in Resources */,
 				B6D66C721E9FD3310075FB00 /* Main.storyboard in Resources */,
 				C677A3501E9E843F002B550C /* LaunchScreen.storyboard in Resources */,
-				B6D66C741EA008060075FB00 /* Podfile in Resources */,
+				B6C714871EA0EC93003DA734 /* Podfile in Resources */,
 				C677A34D1E9E843F002B550C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
