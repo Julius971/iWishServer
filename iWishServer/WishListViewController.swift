@@ -12,7 +12,6 @@ class WishListViewController: UIViewController, UITableViewDelegate, UITableView
 
     @IBOutlet weak var WishListTable: UITableView!
     
-    let con = ConectionHandler(port: 1337)
     var titleList:Array<Titel> = []
     
     override func viewDidLoad() {
@@ -27,7 +26,7 @@ class WishListViewController: UIViewController, UITableViewDelegate, UITableView
     }
     
     func load() {
-        titleList.append(contentsOf: con.updateTitle())
+        
     }
     
     func reload(){

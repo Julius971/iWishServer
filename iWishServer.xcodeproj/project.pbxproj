@@ -19,7 +19,7 @@
 		C677A3581E9E98BD002B550C /* WishListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677A3571E9E98BD002B550C /* WishListViewController.swift */; };
 		C677A35A1E9E98EE002B550C /* WishListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677A3591E9E98EE002B550C /* WishListTableViewCell.swift */; };
 		C677A35C1E9E9C0E002B550C /* Titel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677A35B1E9E9C0E002B550C /* Titel.swift */; };
-		C677A35E1E9EA34B002B550C /* ConectionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677A35D1E9EA34B002B550C /* ConectionHandler.swift */; };
+		C677A35E1E9EA34B002B550C /* ConnectionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677A35D1E9EA34B002B550C /* ConnectionHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 		C677A3571E9E98BD002B550C /* WishListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishListViewController.swift; sourceTree = "<group>"; };
 		C677A3591E9E98EE002B550C /* WishListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishListTableViewCell.swift; sourceTree = "<group>"; };
 		C677A35B1E9E9C0E002B550C /* Titel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Titel.swift; sourceTree = "<group>"; };
-		C677A35D1E9EA34B002B550C /* ConectionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConectionHandler.swift; sourceTree = "<group>"; };
+		C677A35D1E9EA34B002B550C /* ConnectionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				C677A35B1E9E9C0E002B550C /* Titel.swift */,
-				C677A35D1E9EA34B002B550C /* ConectionHandler.swift */,
+				C677A35D1E9EA34B002B550C /* ConnectionHandler.swift */,
 				C642E9121E9F9D700097E355 /* SongManager.swift */,
 			);
 			name = Utility;
@@ -152,7 +152,7 @@
 				TargetAttributes = {
 					C677A3411E9E843F002B550C = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = AXLC3PQNC8;
+						DevelopmentTeam = ZB7A87ZZKW;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -202,7 +202,7 @@
 				C677A3581E9E98BD002B550C /* WishListViewController.swift in Sources */,
 				C677A35C1E9E9C0E002B550C /* Titel.swift in Sources */,
 				C677A3461E9E843F002B550C /* AppDelegate.swift in Sources */,
-				C677A35E1E9EA34B002B550C /* ConectionHandler.swift in Sources */,
+				C677A35E1E9EA34B002B550C /* ConnectionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +317,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AXLC3PQNC8;
+				DEVELOPMENT_TEAM = ZB7A87ZZKW;
 				INFOPLIST_FILE = iWishServer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.Totalegal.iWishServer;
@@ -331,7 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AXLC3PQNC8;
+				DEVELOPMENT_TEAM = ZB7A87ZZKW;
 				INFOPLIST_FILE = iWishServer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.Totalegal.iWishServer;

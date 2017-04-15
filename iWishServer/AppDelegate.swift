@@ -12,8 +12,8 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    var con: ConnectionHandler?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         // Get initial Views from Storyboards
@@ -35,6 +35,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let tabbarview = UITabBarController()
         tabbarview.viewControllers = [songlistview, wishlistview, settingsview]
         self.window?.rootViewController = tabbarview
+        
+        //initialize connectionHandler
+        con = ConnectionHandler(port: 1337)
         
         return true
     }

@@ -8,12 +8,34 @@
 
 import Foundation
 
-class ConectionHandler{
+class ConnectionHandler: NSObject{
     
-    let port:Int
+    var port:Int = 1337
+    var serverSocket:Int32?
+    var bindServer:Int32?
     
     init(port: Int) {
+        super.init()
         self.port = port
+        init_connection()
+    }
+    
+    override init(){
+        super.init()
+        init_connection()
+    }
+    
+    func init_connection(){
+        serverSocket = socket(PF_INET, SOCK_STREAM, 0)
+        if(serverSocket != -1){
+            
+            bindServer = bind(serverSocket, UnsafePointer<sockaddr>!, <#T##socklen_t#>)
+            if(bindServer != -1){
+                if(listen(serverSocket!, 10) != -1){
+                    
+                }
+            }
+        }
     }
     
     func updateTitle() -> Array<Titel>{
