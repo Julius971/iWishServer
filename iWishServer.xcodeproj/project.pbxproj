@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B6C714871EA0EC93003DA734 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B6C714861EA0EC93003DA734 /* Podfile */; };
-		B6C714A01EA13434003DA734 /* MainChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C7149F1EA13434003DA734 /* MainChooseViewController.swift */; };
 		B6D66C6E1E9FCBF20075FB00 /* WishListStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C6D1E9FCBF20075FB00 /* WishListStoryBoard.storyboard */; };
 		B6D66C701E9FCC360075FB00 /* SettingsStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C6F1E9FCC360075FB00 /* SettingsStoryBoard.storyboard */; };
 		B6D66C721E9FD3310075FB00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C711E9FD3310075FB00 /* Main.storyboard */; };
 		C6040E511E9FC3CC0070100D /* SongListStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6040E501E9FC3CC0070100D /* SongListStoryBoard.storyboard */; };
 		C642E9131E9F9D700097E355 /* SongManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C642E9121E9F9D700097E355 /* SongManager.swift */; };
+		C64A94E01EA22FC50087FFE2 /* SongListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64A94DF1EA22FC50087FFE2 /* SongListCollectionViewCell.swift */; };
+		C64A94E71EA232B50087FFE2 /* SongListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64A94E61EA232B50087FFE2 /* SongListViewController.swift */; };
 		C677A3461E9E843F002B550C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677A3451E9E843F002B550C /* AppDelegate.swift */; };
 		C677A34D1E9E843F002B550C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C677A34C1E9E843F002B550C /* Assets.xcassets */; };
 		C677A3501E9E843F002B550C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C677A34E1E9E843F002B550C /* LaunchScreen.storyboard */; };
@@ -31,6 +32,8 @@
 		B6D66C711E9FD3310075FB00 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C6040E501E9FC3CC0070100D /* SongListStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SongListStoryBoard.storyboard; sourceTree = "<group>"; };
 		C642E9121E9F9D700097E355 /* SongManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongManager.swift; sourceTree = "<group>"; };
+		C64A94DF1EA22FC50087FFE2 /* SongListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongListCollectionViewCell.swift; sourceTree = "<group>"; };
+		C64A94E61EA232B50087FFE2 /* SongListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongListViewController.swift; sourceTree = "<group>"; };
 		C677A3421E9E843F002B550C /* iWishServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWishServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C677A3451E9E843F002B550C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C677A34C1E9E843F002B550C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,6 +69,8 @@
 			isa = PBXGroup;
 			children = (
 				C6040E501E9FC3CC0070100D /* SongListStoryBoard.storyboard */,
+				C64A94DF1EA22FC50087FFE2 /* SongListCollectionViewCell.swift */,
+				C64A94E61EA232B50087FFE2 /* SongListViewController.swift */,
 			);
 			name = SongList;
 			sourceTree = "<group>";
@@ -209,10 +214,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C677A35A1E9E98EE002B550C /* WishListTableViewCell.swift in Sources */,
+				C64A94E71EA232B50087FFE2 /* SongListViewController.swift in Sources */,
 				C642E9131E9F9D700097E355 /* SongManager.swift in Sources */,
 				C677A3581E9E98BD002B550C /* WishListViewController.swift in Sources */,
 				C677A35C1E9E9C0E002B550C /* Titel.swift in Sources */,
 				C677A3461E9E843F002B550C /* AppDelegate.swift in Sources */,
+				C64A94E01EA22FC50087FFE2 /* SongListCollectionViewCell.swift in Sources */,
 				C677A35E1E9EA34B002B550C /* ConnectionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

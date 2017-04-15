@@ -12,7 +12,7 @@
         <!--Musik Bibliothek-->
         <scene sceneID="pcq-Sw-ojg">
             <objects>
-                <viewController id="wyI-gj-uaL" sceneMemberID="viewController">
+                <viewController id="wyI-gj-uaL" customClass="SongListViewController" customModule="iWishServer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ecB-s3-qgU"/>
                         <viewControllerLayoutGuide type="bottom" id="bBM-Dd-fmd"/>
@@ -21,23 +21,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="72e-hb-qdP">
-                                <rect key="frame" x="0.0" y="108" width="768" height="867"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="72e-hb-qdP" customClass="SongListCollectionView" customModule="iWishServer" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="768" height="911"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="d6D-F8-50D">
-                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="itemSize" width="110" height="122"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="sf0-T3-Zvd">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SampleSongListCell" id="sf0-T3-Zvd" customClass="SongListCollectionViewCell" customModule="iWishServer" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="110" height="122"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="110" height="122"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5dL-bj-u9G">
+                                                    <rect key="frame" x="8" y="8" width="94" height="94"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HpP-9B-eQP">
+                                                    <rect key="frame" x="8" y="101" width="94" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
                                         </view>
+                                        <connections>
+                                            <outlet property="Image" destination="5dL-bj-u9G" id="PK6-np-Dvj"/>
+                                            <outlet property="Title" destination="HpP-9B-eQP" id="WGe-OG-Lzv"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -56,6 +73,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="collectionView" destination="72e-hb-qdP" id="5OS-Do-kuj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rje-bD-T8n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -69,7 +89,7 @@
                         <viewControllerLayoutGuide type="top" id="ofn-h4-CMa"/>
                         <viewControllerLayoutGuide type="bottom" id="CQ2-o8-EeX"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="vBX-Tq-GRN">
+                    <view key="view" contentMode="scaleToFill" id="vBX-Tq-GRN" customClass="SongListCollectionViewCell" customModule="iWishServer" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -134,7 +154,7 @@
                 <navigationController id="uxA-Zl-eKV" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="NyQ-3O-1jr"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="gMy-Ke-yg9">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gMy-Ke-yg9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

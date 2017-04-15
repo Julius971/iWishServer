@@ -29,12 +29,12 @@ class ConnectionHandler: NSObject{
         serverSocket = socket(PF_INET, SOCK_STREAM, 0)
         if(serverSocket != -1){
             
-            bindServer = bind(serverSocket!, UnsafePointer<sockaddr>!, <#T##socklen_t#>)
-            if(bindServer != -1){
-                if(listen(serverSocket!, 10) != -1){
+            //bindServer = bind(serverSocket!, UnsafePointer<sockaddr>!, <#T##socklen_t#>)
+            //if(bindServer != -1){
+                //if(listen(serverSocket!, 10) != -1){
                     
-                }
-            }
+                //}
+            //}
         }
     }
     
