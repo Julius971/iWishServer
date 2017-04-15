@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		573F93351EA23D080022D0E9 /* SongListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F93341EA23D080022D0E9 /* SongListCollectionViewCell.swift */; };
+		B63C75D51EA2A8C700B8213D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B63C75D41EA2A8C700B8213D /* .gitignore */; };
 		B6C714A81EA242A8003DA734 /* MainChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C714A71EA242A8003DA734 /* MainChooseViewController.swift */; };
 		B6C714AA1EA24396003DA734 /* MainTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C714A91EA24396003DA734 /* MainTableCell.swift */; };
 		B6C714AC1EA244C4003DA734 /* ImpressumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C714AB1EA244C4003DA734 /* ImpressumViewController.swift */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		573F93341EA23D080022D0E9 /* SongListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongListCollectionViewCell.swift; sourceTree = "<group>"; };
+		B63C75D41EA2A8C700B8213D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		B6C714A71EA242A8003DA734 /* MainChooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainChooseViewController.swift; sourceTree = "<group>"; };
 		B6C714A91EA24396003DA734 /* MainTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableCell.swift; sourceTree = "<group>"; };
 		B6C714AB1EA244C4003DA734 /* ImpressumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpressumViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		C677A3391E9E843F002B550C = {
 			isa = PBXGroup;
 			children = (
+				B63C75D41EA2A8C700B8213D /* .gitignore */,
 				C677A3441E9E843F002B550C /* iWishServer */,
 				C677A3431E9E843F002B550C /* Products */,
 			);
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6D66C701E9FCC360075FB00 /* Settings.storyboard in Resources */,
+				B63C75D51EA2A8C700B8213D /* .gitignore in Resources */,
 				C6040E511E9FC3CC0070100D /* SongListStoryBoard.storyboard in Resources */,
 				B6D66C6E1E9FCBF20075FB00 /* WishList.storyboard in Resources */,
 				B6D66C721E9FD3310075FB00 /* Main.storyboard in Resources */,
