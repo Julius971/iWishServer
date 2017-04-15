@@ -93,7 +93,7 @@
                         <viewControllerLayoutGuide type="top" id="ofn-h4-CMa"/>
                         <viewControllerLayoutGuide type="bottom" id="CQ2-o8-EeX"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="vBX-Tq-GRN" customClass="SongListCollectionViewCell" customModule="iWishServer" customModuleProvider="target">
+                    <view key="view" contentMode="scaleToFill" id="vBX-Tq-GRN">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -111,7 +111,7 @@
                                         <rect key="frame" x="0.0" y="28" width="768" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Yul-0E-lGP" id="oA5-hs-h1e">
-                                            <rect key="frame" x="0.0" y="0.0" width="768" height="79.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="768" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9m0-hj-qNE">
