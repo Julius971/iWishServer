@@ -9,14 +9,16 @@
 /* Begin PBXBuildFile section */
 		B6C714871EA0EC93003DA734 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B6C714861EA0EC93003DA734 /* Podfile */; };
 		B6C714A01EA13434003DA734 /* MainChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C7149F1EA13434003DA734 /* MainChooseViewController.swift */; };
-		B6D66C6E1E9FCBF20075FB00 /* WishListStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C6D1E9FCBF20075FB00 /* WishListStoryBoard.storyboard */; };
-		B6D66C701E9FCC360075FB00 /* SettingsStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C6F1E9FCC360075FB00 /* SettingsStoryBoard.storyboard */; };
+		B6C714A21EA22416003DA734 /* MainTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C714A11EA22416003DA734 /* MainTableCell.swift */; };
+		B6C714A41EA238BA003DA734 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C714A31EA238BA003DA734 /* WebViewViewController.swift */; };
+		B6D66C6E1E9FCBF20075FB00 /* WishList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C6D1E9FCBF20075FB00 /* WishList.storyboard */; };
+		B6D66C701E9FCC360075FB00 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C6F1E9FCC360075FB00 /* Settings.storyboard */; };
 		B6D66C721E9FD3310075FB00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C711E9FD3310075FB00 /* Main.storyboard */; };
 		C6040E511E9FC3CC0070100D /* SongListStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6040E501E9FC3CC0070100D /* SongListStoryBoard.storyboard */; };
 		C642E9131E9F9D700097E355 /* SongManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C642E9121E9F9D700097E355 /* SongManager.swift */; };
 		C677A3461E9E843F002B550C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677A3451E9E843F002B550C /* AppDelegate.swift */; };
 		C677A34D1E9E843F002B550C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C677A34C1E9E843F002B550C /* Assets.xcassets */; };
-		C677A3501E9E843F002B550C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C677A34E1E9E843F002B550C /* LaunchScreen.storyboard */; };
+		C677A3501E9E843F002B550C /* SongList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C677A34E1E9E843F002B550C /* SongList.storyboard */; };
 		C677A3581E9E98BD002B550C /* WishListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677A3571E9E98BD002B550C /* WishListViewController.swift */; };
 		C677A35A1E9E98EE002B550C /* WishListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677A3591E9E98EE002B550C /* WishListTableViewCell.swift */; };
 		C677A35C1E9E9C0E002B550C /* Titel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677A35B1E9E9C0E002B550C /* Titel.swift */; };
@@ -26,15 +28,17 @@
 /* Begin PBXFileReference section */
 		B6C714861EA0EC93003DA734 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		B6C7149F1EA13434003DA734 /* MainChooseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainChooseViewController.swift; path = ../MainChooseViewController.swift; sourceTree = "<group>"; };
-		B6D66C6D1E9FCBF20075FB00 /* WishListStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WishListStoryBoard.storyboard; sourceTree = "<group>"; };
-		B6D66C6F1E9FCC360075FB00 /* SettingsStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SettingsStoryBoard.storyboard; sourceTree = "<group>"; };
+		B6C714A11EA22416003DA734 /* MainTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableCell.swift; sourceTree = "<group>"; };
+		B6C714A31EA238BA003DA734 /* WebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		B6D66C6D1E9FCBF20075FB00 /* WishList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WishList.storyboard; sourceTree = "<group>"; };
+		B6D66C6F1E9FCC360075FB00 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		B6D66C711E9FD3310075FB00 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C6040E501E9FC3CC0070100D /* SongListStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SongListStoryBoard.storyboard; sourceTree = "<group>"; };
 		C642E9121E9F9D700097E355 /* SongManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongManager.swift; sourceTree = "<group>"; };
 		C677A3421E9E843F002B550C /* iWishServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWishServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C677A3451E9E843F002B550C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C677A34C1E9E843F002B550C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C677A34F1E9E843F002B550C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C677A34F1E9E843F002B550C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SongList.storyboard; sourceTree = "<group>"; };
 		C677A3511E9E843F002B550C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C677A3571E9E98BD002B550C /* WishListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishListViewController.swift; sourceTree = "<group>"; };
 		C677A3591E9E98EE002B550C /* WishListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishListTableViewCell.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				B6C7149F1EA13434003DA734 /* MainChooseViewController.swift */,
+				B6C714A11EA22416003DA734 /* MainTableCell.swift */,
+				B6C714A31EA238BA003DA734 /* WebViewViewController.swift */,
 				B6D66C711E9FD3310075FB00 /* Main.storyboard */,
 			);
 			name = Main;
@@ -75,7 +81,7 @@
 			children = (
 				C677A3571E9E98BD002B550C /* WishListViewController.swift */,
 				C677A3591E9E98EE002B550C /* WishListTableViewCell.swift */,
-				B6D66C6D1E9FCBF20075FB00 /* WishListStoryBoard.storyboard */,
+				B6D66C6D1E9FCBF20075FB00 /* WishList.storyboard */,
 			);
 			name = WishList;
 			sourceTree = "<group>";
@@ -83,7 +89,7 @@
 		C6040E4F1E9FC3A50070100D /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				B6D66C6F1E9FCC360075FB00 /* SettingsStoryBoard.storyboard */,
+				B6D66C6F1E9FCC360075FB00 /* Settings.storyboard */,
 			);
 			name = Settings;
 			sourceTree = "<group>";
@@ -123,7 +129,7 @@
 				C6040E4F1E9FC3A50070100D /* Settings */,
 				C6040E4E1E9FC39A0070100D /* WishList */,
 				C6040E4D1E9FC3770070100D /* SongList */,
-				C677A34E1E9E843F002B550C /* LaunchScreen.storyboard */,
+				C677A34E1E9E843F002B550C /* SongList.storyboard */,
 				B6C7149E1EA11BA4003DA734 /* Main */,
 				C677A3451E9E843F002B550C /* AppDelegate.swift */,
 				C677A3511E9E843F002B550C /* Info.plist */,
@@ -191,11 +197,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6D66C701E9FCC360075FB00 /* SettingsStoryBoard.storyboard in Resources */,
+				B6D66C701E9FCC360075FB00 /* Settings.storyboard in Resources */,
 				C6040E511E9FC3CC0070100D /* SongListStoryBoard.storyboard in Resources */,
-				B6D66C6E1E9FCBF20075FB00 /* WishListStoryBoard.storyboard in Resources */,
+				B6D66C6E1E9FCBF20075FB00 /* WishList.storyboard in Resources */,
 				B6D66C721E9FD3310075FB00 /* Main.storyboard in Resources */,
-				C677A3501E9E843F002B550C /* LaunchScreen.storyboard in Resources */,
+				C677A3501E9E843F002B550C /* SongList.storyboard in Resources */,
 				B6C714871EA0EC93003DA734 /* Podfile in Resources */,
 				C677A34D1E9E843F002B550C /* Assets.xcassets in Resources */,
 			);
@@ -214,6 +220,8 @@
 				C677A35C1E9E9C0E002B550C /* Titel.swift in Sources */,
 				C677A3461E9E843F002B550C /* AppDelegate.swift in Sources */,
 				B6C714A01EA13434003DA734 /* MainChooseViewController.swift in Sources */,
+				B6C714A21EA22416003DA734 /* MainTableCell.swift in Sources */,
+				B6C714A41EA238BA003DA734 /* WebViewViewController.swift in Sources */,
 				C677A35E1E9EA34B002B550C /* ConectionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,12 +229,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C677A34E1E9E843F002B550C /* LaunchScreen.storyboard */ = {
+		C677A34E1E9E843F002B550C /* SongList.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C677A34F1E9E843F002B550C /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = SongList.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

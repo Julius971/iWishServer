@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Eigenschaften-->
+        <!--Einstellungen-->
         <scene sceneID="nWe-67-ENZ">
             <objects>
                 <viewController id="HdG-tV-XuL" sceneMemberID="viewController">
@@ -82,17 +82,17 @@
                             <constraint firstItem="3rh-cY-yrp" firstAttribute="bottom" secondItem="YwD-R5-K8l" secondAttribute="top" id="yEe-OL-RbH"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Eigenschaften" id="cB8-Tb-uwR"/>
+                    <navigationItem key="navigationItem" title="Einstellungen" id="cB8-Tb-uwR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WxZ-xF-0eS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="201" y="1373"/>
         </scene>
-        <!--Item-->
+        <!--Einstellungen-->
         <scene sceneID="dN4-Af-cpN">
             <objects>
                 <navigationController id="9BG-9f-8fn" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="PXN-f9-QOW"/>
+                    <tabBarItem key="tabBarItem" title="Einstellungen" image="Settings" selectedImage="Settings" id="PXN-f9-QOW"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="CcQ-7A-5Uy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -107,4 +107,7 @@
             <point key="canvasLocation" x="-569" y="1374"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Settings" width="16" height="16"/>
+    </resources>
 </document>

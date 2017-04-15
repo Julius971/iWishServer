@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Gewünschte Songs-->
+        <!--Songliste-->
         <scene sceneID="QJx-NX-Kfx">
             <objects>
                 <viewController id="mKy-pD-bDF" customClass="WishListViewController" customModule="iWishServer" customModuleProvider="target" sceneMemberID="viewController">
@@ -103,7 +103,7 @@
                             <constraint firstItem="AWS-VT-weZ" firstAttribute="leading" secondItem="gjY-7E-kJ3" secondAttribute="leading" id="SuL-cq-mHh"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Gewünschte Songs" id="fUL-He-lpM"/>
+                    <navigationItem key="navigationItem" title="Songliste" id="fUL-He-lpM"/>
                     <connections>
                         <outlet property="WishListTable" destination="AWS-VT-weZ" id="nKb-Yr-6m2"/>
                     </connections>
@@ -112,11 +112,11 @@
             </objects>
             <point key="canvasLocation" x="232.8125" y="-357.421875"/>
         </scene>
-        <!--Item-->
+        <!--Songliste-->
         <scene sceneID="fPD-AZ-lJP">
             <objects>
                 <navigationController id="Y1A-p4-GHA" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="KWN-9b-NcL"/>
+                    <tabBarItem key="tabBarItem" title="Songliste" image="Wishlist" selectedImage="Wishlist" id="KWN-9b-NcL"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="tkn-sh-SoP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -131,4 +131,7 @@
             <point key="canvasLocation" x="-488" y="-357"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Wishlist" width="16" height="16"/>
+    </resources>
 </document>
