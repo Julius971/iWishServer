@@ -20,7 +20,7 @@ class SongListViewController: UIViewController, UICollectionViewDelegate, UIColl
     }
     
     func load(){
-        titles.append(Titel(titel: "Titel1", artist: "Artist1", album: "Album1"))
+        titles.append(Titel(titel: "Titel1337", artist: "Artist1", album: "Album1"))
         titles.append(Titel(titel: "Titel2", artist: "Artist2", album: "Album2"))
     }
 
