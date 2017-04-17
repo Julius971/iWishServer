@@ -9,6 +9,9 @@
 import UIKit
 
 class SettingsCollectionViewCell: UICollectionViewCell {
-    
-    
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var cell_switch: UISwitch!
+    @IBOutlet weak var cell_txt: UITextField!
+    @IBOutlet weak var cell_slider: UISlider!
+    @IBOutlet weak var cell_segmented: UISegmentedControl!
 }

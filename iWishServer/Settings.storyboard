@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9BG-9f-8fn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9BG-9f-8fn">
     <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -87,6 +87,10 @@
                                             <constraint firstAttribute="bottomMargin" secondItem="DNX-J0-dSh" secondAttribute="bottom" constant="-6" id="wRp-rd-EIn"/>
                                             <constraint firstItem="DNX-J0-dSh" firstAttribute="top" secondItem="OFO-DZ-7Gb" secondAttribute="top" id="yhH-Ow-fhh"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="cell_switch" destination="MFF-jD-49o" id="ysY-g8-vN6"/>
+                                            <outlet property="label" destination="jga-LP-UYY" id="Gir-gZ-aCc"/>
+                                        </connections>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TextFieldCell" id="2hS-sz-jkp" customClass="SettingsCollectionViewCell" customModule="iWishServer" customModuleProvider="target">
                                         <rect key="frame" x="150" y="0.0" width="128" height="130"/>
@@ -134,6 +138,10 @@
                                             <constraint firstItem="WfC-1l-lxe" firstAttribute="leading" secondItem="2hS-sz-jkp" secondAttribute="leading" id="sBH-KG-vIi"/>
                                             <constraint firstAttribute="trailing" secondItem="WfC-1l-lxe" secondAttribute="trailing" id="zaM-Wi-f96"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="cell_txt" destination="T5r-To-31g" id="oeI-io-ITJ"/>
+                                            <outlet property="label" destination="0JT-sa-yIa" id="d8c-X7-HRm"/>
+                                        </connections>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SliderCell" id="Fe7-2d-FPk" customClass="SettingsCollectionViewCell" customModule="iWishServer" customModuleProvider="target">
                                         <rect key="frame" x="300" y="0.0" width="128" height="130"/>
@@ -179,6 +187,10 @@
                                             <constraint firstAttribute="bottom" secondItem="gem-fQ-VLv" secondAttribute="bottom" id="pso-Fe-9mh"/>
                                             <constraint firstItem="gem-fQ-VLv" firstAttribute="top" secondItem="Fe7-2d-FPk" secondAttribute="top" id="yGS-gc-jrQ"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="cell_slider" destination="YK9-BI-b1h" id="eDo-uD-6H9"/>
+                                            <outlet property="label" destination="qIc-t6-L5Q" id="coI-RF-Z6b"/>
+                                        </connections>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SegmentCell" id="0uT-Mk-cYx" customClass="SettingsCollectionViewCell" customModule="iWishServer" customModuleProvider="target">
                                         <rect key="frame" x="450" y="0.0" width="128" height="130"/>
@@ -227,6 +239,10 @@
                                             <constraint firstAttribute="trailing" secondItem="fjj-Sx-lDJ" secondAttribute="trailing" id="uuQ-4V-LpO"/>
                                             <constraint firstItem="USk-Vb-cdP" firstAttribute="top" secondItem="0uT-Mk-cYx" secondAttribute="topMargin" id="wP4-9e-Q9i"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="cell_segmented" destination="DMg-7y-y7m" id="wKz-Sa-toz"/>
+                                            <outlet property="label" destination="USk-Vb-cdP" id="o9g-XD-H0e"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
