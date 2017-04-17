@@ -139,7 +139,7 @@
                                 <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MainCell" focusStyle="custom" rowHeight="107" id="kDx-d3-atI" customClass="MainTableCell" customModule="iWishServer" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="56" width="406" height="107"/>
+                                        <rect key="frame" x="0.0" y="55.5" width="406" height="107"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kDx-d3-atI" id="bTD-f5-4Cx">
                                             <rect key="frame" x="0.0" y="0.0" width="373" height="107"/>
