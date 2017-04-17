@@ -4,8 +4,8 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,8 +21,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="72e-hb-qdP">
-                                <rect key="frame" x="0.0" y="64" width="768" height="911"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="72e-hb-qdP">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="d6D-F8-50D">
                                     <size key="itemSize" width="110" height="122"/>
@@ -38,19 +38,26 @@
                                             <rect key="frame" x="0.0" y="0.0" width="110" height="122"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5dL-bj-u9G">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5dL-bj-u9G">
                                                     <rect key="frame" x="8" y="8" width="94" height="94"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HpP-9B-eQP">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HpP-9B-eQP">
                                                     <rect key="frame" x="8" y="101" width="94" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                         </view>
+                                        <constraints>
+                                            <constraint firstItem="5dL-bj-u9G" firstAttribute="leading" secondItem="HpP-9B-eQP" secondAttribute="leading" id="1fm-dS-ggo"/>
+                                            <constraint firstItem="5dL-bj-u9G" firstAttribute="trailing" secondItem="sf0-T3-Zvd" secondAttribute="trailingMargin" id="87B-1f-Pks"/>
+                                            <constraint firstAttribute="bottom" secondItem="HpP-9B-eQP" secondAttribute="bottom" id="9jX-zA-tHO"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="5dL-bj-u9G" secondAttribute="bottom" constant="12" id="NFH-Im-Htp"/>
+                                            <constraint firstItem="5dL-bj-u9G" firstAttribute="leading" secondItem="sf0-T3-Zvd" secondAttribute="leadingMargin" id="aPQ-fs-hkW"/>
+                                            <constraint firstItem="5dL-bj-u9G" firstAttribute="trailing" secondItem="HpP-9B-eQP" secondAttribute="trailing" id="mKr-aa-pbc"/>
+                                            <constraint firstItem="5dL-bj-u9G" firstAttribute="top" secondItem="sf0-T3-Zvd" secondAttribute="topMargin" id="pLP-Ki-zVw"/>
+                                        </constraints>
                                         <connections>
                                             <outlet property="iMage" destination="5dL-bj-u9G" id="qBx-lX-Sdv"/>
                                             <outlet property="title" destination="HpP-9B-eQP" id="fbX-Av-CIy"/>
@@ -65,7 +72,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="72e-hb-qdP" firstAttribute="bottom" secondItem="bBM-Dd-fmd" secondAttribute="top" id="QUE-XR-Y6a"/>
+                            <constraint firstItem="72e-hb-qdP" firstAttribute="leading" secondItem="Obl-4s-yqr" secondAttribute="leading" id="9Wr-dC-1F0"/>
+                            <constraint firstAttribute="trailing" secondItem="72e-hb-qdP" secondAttribute="trailing" id="PE1-JD-YTG"/>
+                            <constraint firstAttribute="bottom" secondItem="72e-hb-qdP" secondAttribute="bottom" id="PZJ-cG-JZ4"/>
+                            <constraint firstItem="72e-hb-qdP" firstAttribute="top" secondItem="Obl-4s-yqr" secondAttribute="top" id="SFq-ec-8ch"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Musik Bibliothek" id="gvm-WR-ekg">
@@ -107,7 +117,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="80" id="Yul-0E-lGP">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SongCell" rowHeight="80" id="Yul-0E-lGP">
                                         <rect key="frame" x="0.0" y="28" width="768" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Yul-0E-lGP" id="oA5-hs-h1e">
