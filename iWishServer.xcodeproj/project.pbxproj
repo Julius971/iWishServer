@@ -17,6 +17,7 @@
 		B6D66C701E9FCC360075FB00 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C6F1E9FCC360075FB00 /* Settings.storyboard */; };
 		B6D66C721E9FD3310075FB00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D66C711E9FD3310075FB00 /* Main.storyboard */; };
 		C6040E511E9FC3CC0070100D /* SongListStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6040E501E9FC3CC0070100D /* SongListStoryBoard.storyboard */; };
+		C61073D91EA5164000FD61C3 /* SettingsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61073D81EA5164000FD61C3 /* SettingsCollectionViewCell.swift */; };
 		C642E9131E9F9D700097E355 /* SongManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C642E9121E9F9D700097E355 /* SongManager.swift */; };
 		C64A94E71EA232B50087FFE2 /* SongListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64A94E61EA232B50087FFE2 /* SongListViewController.swift */; };
 		C677A3461E9E843F002B550C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C677A3451E9E843F002B550C /* AppDelegate.swift */; };
@@ -39,6 +40,7 @@
 		B6D66C6F1E9FCC360075FB00 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		B6D66C711E9FD3310075FB00 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C6040E501E9FC3CC0070100D /* SongListStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SongListStoryBoard.storyboard; sourceTree = "<group>"; };
+		C61073D81EA5164000FD61C3 /* SettingsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCollectionViewCell.swift; sourceTree = "<group>"; };
 		C642E9121E9F9D700097E355 /* SongManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongManager.swift; sourceTree = "<group>"; };
 		C64A94E61EA232B50087FFE2 /* SongListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongListViewController.swift; sourceTree = "<group>"; };
 		C677A3421E9E843F002B550C /* iWishServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWishServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				B6D66C6F1E9FCC360075FB00 /* Settings.storyboard */,
+				C61073D81EA5164000FD61C3 /* SettingsCollectionViewCell.swift */,
 			);
 			name = Settings;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				B6C714AC1EA244C4003DA734 /* ImpressumViewController.swift in Sources */,
 				573F93351EA23D080022D0E9 /* SongListCollectionViewCell.swift in Sources */,
 				C642E9131E9F9D700097E355 /* SongManager.swift in Sources */,
+				C61073D91EA5164000FD61C3 /* SettingsCollectionViewCell.swift in Sources */,
 				B6C714AA1EA24396003DA734 /* MainTableCell.swift in Sources */,
 				C677A3581E9E98BD002B550C /* WishListViewController.swift in Sources */,
 				C677A35C1E9E9C0E002B550C /* Titel.swift in Sources */,

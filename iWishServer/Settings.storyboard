@@ -48,7 +48,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SwitchCell" id="OFO-DZ-7Gb">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SwitchCell" id="OFO-DZ-7Gb" customClass="SettingsCollectionViewCell" customModule="iWishServer" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="128" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -88,7 +88,7 @@
                                             <constraint firstItem="DNX-J0-dSh" firstAttribute="top" secondItem="OFO-DZ-7Gb" secondAttribute="top" id="yhH-Ow-fhh"/>
                                         </constraints>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TextFieldCell" id="2hS-sz-jkp">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TextFieldCell" id="2hS-sz-jkp" customClass="SettingsCollectionViewCell" customModule="iWishServer" customModuleProvider="target">
                                         <rect key="frame" x="150" y="0.0" width="128" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -135,7 +135,7 @@
                                             <constraint firstAttribute="trailing" secondItem="WfC-1l-lxe" secondAttribute="trailing" id="zaM-Wi-f96"/>
                                         </constraints>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SliderCell" id="Fe7-2d-FPk">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SliderCell" id="Fe7-2d-FPk" customClass="SettingsCollectionViewCell" customModule="iWishServer" customModuleProvider="target">
                                         <rect key="frame" x="300" y="0.0" width="128" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -180,7 +180,7 @@
                                             <constraint firstItem="gem-fQ-VLv" firstAttribute="top" secondItem="Fe7-2d-FPk" secondAttribute="top" id="yGS-gc-jrQ"/>
                                         </constraints>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SegmentCell" id="0uT-Mk-cYx">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SegmentCell" id="0uT-Mk-cYx" customClass="SettingsCollectionViewCell" customModule="iWishServer" customModuleProvider="target">
                                         <rect key="frame" x="450" y="0.0" width="128" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
