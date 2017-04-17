@@ -45,10 +45,10 @@ class MainChooseViewController: UIViewController, UITableViewDelegate, UITableVi
             performSegue(withIdentifier: "showClient", sender: self)
             break
         case 1:
-            performSegue(withIdentifier: "showServer", sender: self)
+            performSegue(withIdentifier: "showClient", sender: self)
             break
         case 2:
-            performSegue(withIdentifier: "showClient", sender: self)
+            performSegue(withIdentifier: "showServer", sender: self)
             break
         case 3:
             performSegue(withIdentifier: "showImpressum", sender: self)
@@ -59,9 +59,9 @@ class MainChooseViewController: UIViewController, UITableViewDelegate, UITableVi
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         tableView.backgroundColor = UIColor.clear
-        tableView.backgroundView?.backgroundColor = UIColor.clear
+        //tableView.backgroundView?.backgroundColor = UIColor.clear
         cell.backgroundColor = UIColor.clear
-        cell.backgroundView?.backgroundColor = UIColor.clear
+        //cell.backgroundView?.backgroundColor = UIColor.clear
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
